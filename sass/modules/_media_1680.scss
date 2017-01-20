@@ -1,0 +1,32 @@
+@media only screen and (max-width:1680px) {
+  body {
+    width:$general-width;
+  }
+  #town_1 {
+    top:392px;
+  }
+  .right {
+    left:55%;
+  }
+  .nav {
+    top:780px;
+  }
+  #cave-parallax {
+    bottom: 532px;
+  }
+  .item-slider {
+    width:60%;
+  }
+  .layer-overlay {
+    height: 836px;
+    bottom: 38px;
+  }
+  #cave_4{
+    left:155px;
+  }
+  #cave_3 {
+    left:72px;
+    position:relative;
+  }
+
+}

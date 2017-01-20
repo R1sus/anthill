@@ -1,0 +1,131 @@
+#main-parallax {
+  height: 800px;
+  overflow: hidden;
+  position: relative;
+  width:100%;
+  display: block;
+ 
+}
+
+.layerh {
+  background-position: bottom center;
+  background-size: auto;
+  background-repeat: no-repeat;
+  width:$general-width;
+  height: 800px;
+  position: fixed;
+  z-index: -1;
+}
+.layer-bg {
+    background-image: url("../img/back_sun.png");
+    background-size: cover;
+    width:$general-width;
+    background-repeat: no-repeat;
+}
+
+.layer-1 {
+    background-image: url("../img/sky.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+      
+}
+
+.layer-2 {
+  background-image: url("../img/mountain.png");
+  top: -190px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  
+}
+
+.layer-3 {
+  background-image: url("../img/forest.png");
+  top:-150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   
+}
+
+.layer-4 {
+  background-image: url("../img/field.png");
+  top:-65px;
+  background-size: contain;
+  background-repeat: no-repeat;
+   
+}
+.layer-5 {
+  background-image: url("../img/tree_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+
+.layer-overlay {
+  background-image: url("../img/tree_1.png");
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  height: 800px;
+  overflow-x:hidden;
+  background-repeat: no-repeat;
+
+  }
+/*Down Parallax*/
+.down-parallax{
+    width: 100%;
+    overflow: hidden;
+    margin-bottom:-50px;
+    }
+
+.scene {
+  padding: 0;
+  margin: 0;
+  width:$general-width;
+  z-index:-1;
+
+}
+#town_4 {
+    position: relative;
+    top: -65px;
+    z-index: 96;
+    height: auto;
+
+}
+#town_3 {
+    position: relative;
+    top: 165px;
+    z-index: 97;
+    height: auto;
+    left: 3rem;
+
+}
+
+
+#town_2 {
+    position: relative;
+    top: 377px;
+    z-index: 98;
+    height: auto;
+
+}
+#town_1 {
+    position: relative;
+    top: 345px;
+    z-index: 99;
+    height: auto;
+
+}
+#cave_4 {
+   position: relative;
+  top: -37px;
+  left:0px;
+}
+#cave-parallax {
+    position:absolute;
+    width:100%;
+    height:auto;
+    z-index:2;
+
+}
+

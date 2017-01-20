@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Ant House</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/main.css" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+</head>
+
+<body translate="no">
+    <header>
+        <div class = "mobile-menu">
+          <div class="hamburger hamburger--spin" >
+            <div class="hamburger-box">
+            <div class="hamburger-inner">
+            </div>
+         </div>
+          </div>
+            <ul  id = "mobile-navigation">
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+         </div>
+        
+     
+        <div id='main-parallax'>
+            <div class='layer-bg layerh' data-depthm='0.10' data-type='parallax'></div>
+            <div class='layer-1 layerh' data-depthm='0.30' data-type='parallax'></div>
+            <div class='layer-2 layerh' data-depthm='0.50' data-type='parallax'></div>
+            <div class='layer-3 layerh' data-depthm='0.60' data-type='parallax'></div>
+            <div class='layer-4 layerh' data-depthm='0.70' data-type='parallax'></div>
+            <div class='layer-5 layerh' data-depthm='0.80' data-type='parallax'></div>
+            <div class='layer-overlay'></div>
+        </div>
+        <div class="mobile-img"><img src="img/par_img.jpg" /></div>
+        <div id="logo">
+            <img id="logo-img" src="img/ant_logo.png" alt="Ant Logo" />
+            <h1>Ant House</h1>
+        </div>
+        <nav id="menu">
+            <ul>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#team">Our Team</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+        <ul class="language">
+            <li><a href="#">Chn</a></li>
+            <li><a href="#">Rus</a></li>
+            <li><a href="#">Eng</a></li>
+        </ul>
+  
+
+    </header>
+    <main>
+        <section class="portfolio"><a id="portfolio"></a>
+            <div class="wrapper">
+                <img class="mobile-branch left" src = "img/branch_left_mob.png"/><h2>Portfolio</h2>
+                 <img class="mobile-branch right" src = "img/branch_right_mob.png"/>
+                <div class="svgBlock svg-position" id="empty-block"></div>
+                <div class="item-slider">
+                    <ul id="carusel">
+                        <li id="1">
+                            <div><img src="img/slide1.jpg" alt="slide" /></div>
+                        </li>
+                        <li id="2">
+                            <div><img src="https://70.img.avito.st/1280x960/2126515170.jpg" alt="slide" /></div>
+                        </li>
+                        <li id="3">
+                            <div><img src="img/slide1.jpg" alt="slide" /></div>
+                        </li>
+                        <li id="4">
+                            <div><img src="https://70.img.avito.st/1280x960/2126515170.jpg" alt="slide" /></div>
+                        </li>
+                        <li id="5">
+                            <div><img src="img/slide1.jpg" alt="slide" /></div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="description-slider">
+                    <h3>Recent Work</h3>
+                    <p>There are some examples of our works. If you want look more, please click on the button below.</p>
+                    <a id="port-link" type="button" href="portfolio.html">Look more</a>
+                    <!--<a id="load-img" type="button" href="#">Load more</a>-->
+                </div>
+                <div class="loadPortfolio">
+                    <div id="smartPortfolio">
+                        <div class="ourWork">
+                            <a href="http://nadyabal.comli.com">
+                                <img src="img/slide1.jpg" alt="first site"></a>
+                        </div>
+                        <div class="ourWork">
+                            <a href="http://vk.com">
+                                <img src="img/slide1.jpg" alt="second site"></a>
+                        </div>
+                    </div>
+                    <div id="moreButton" onclick="lazyload.load()">
+                        <a type = "button"> Show more...</a>
+                    </div>
+                    <div id="loadingDiv">
+                       <span>Loading data...</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about"><a id="about"></a>
+            <img id="root-img" src="img/koren.png" width="100%" alt="root" />
+            <div class="wrapper">
+                 <img class="mobile-branch left" src = "img/branch_left_black_mob.png"/><h2>About us</h2>
+                <img class="mobile-branch right" src = "img/branch_right_black_mob.png"/>
+                <div class="svgBlock2 svg-position" id="empty-block"></div>
+                <h4>Who we are?</h4>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+                    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+                    commodo consequat.<span class="full"> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+                    nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit
+                    anim id est laborum.</span></p>
+                <div class="svgBlock5 svg-position-long" id="empty-block-long"></div>
+                <img class="mobile-branch-long" src = "img/long_branch_mob.png"/>
+                <h4>What we offer?</h4>
+                <div class="offer-block">
+                    <div class="item">
+                        <img class="web-icon" src="img/svg_icons/Web_design.svg" alt="svg icon" />
+                        <h5>Web Design</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="dev-icon" src="img/svg_icons/Development.svg" alt="svg icon" />
+                        <h5>Development</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="app-icon" src="img/svg_icons/App_design.svg" alt="svg icon" />
+                        <h5>App Design</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="logodes-icon" src="img/svg_icons/Logo_design.svg" alt="svg icon" />
+                        <h5>Logo Design</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <div class="offer-block">
+                    <div class="item">
+                        <img class="seo-icon" src="img/svg_icons/Seo_help.svg" alt="svg icon" />
+                        <h5>Seo Help</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="media-icon" src="img/svg_icons/Social_media.svg" alt="svg icon" />
+                        <h5>Social Media</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="host-icon" src="img/svg_icons/Hosting.svg" alt="svg icon" />
+                        <h5>Hosting</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                    <div class="item">
+                        <img class="support-icon" src="img/svg_icons/Support.svg" alt="svg icon" />
+                        <h5>Support</h5>
+                        <p>Lorem ipsum dolor sit <br>amet, consectetur adipiscing elit, sed do eiusmod tempor</p>
+                    </div>
+                </div>
+                <div class="our-team"><a id="team"></a>
+                    <h2>Our Team</h2>
+                    <div class="svgBlock3 svg-position" id="empty-block"></div>
+                    <h4>Meet our team</h4>
+                    <div class="our-team-photo">
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg " alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="our-team-photo">
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                        <figure class="effect">
+                            <img src="img/foto1.jpg" alt="dev photo" />
+                            <figcaption>
+                                <div>
+                                    <p>Sergey<br>Android dev</p>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="down-parallax">
+            <img id="cave-parallax" src="img/cave/cave_1.png" width="100%" />
+            <ul id="scene">
+                <li class="layer " data-depth="0.10"> <img src="img/cave/bg-layer.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.80"> <img id="town_4" src="img/cave/town_4.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.70"> <img id="town_3" src="img/cave/town_3.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.60"> <img id="town_2" src="img/cave/town_2.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.45"> <img id="cave_4" src="img/cave/cave_4.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.30"> <img id ="cave_3" src="img/cave/cave_3.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.20"> <img src="img/cave/cave_2.png" alt="parallax layer" /> </li>
+                <li class="layer " data-depth="0.00"> <img id="town_1" src="img/cave/town_1.png" alt="parallax layer" /> </li>
+            </ul>
+        </div>
+        <div class="contact-us"><a id="contact"></a>
+            <div class="wrapper">
+                <img class="mobile-branch left" src = "img/branch_left_mob.png"/><h2>Contact us</h2>
+                <img class="mobile-branch right" src = "img/branch_right_mob.png"/>
+                <div class="svgBlock4 svg-position" id="empty-block"></div>
+                <h4>Get in touch</h4>
+                <form id="contact-form" method="post" action="javascript:void(null);" onsubmit="call()">
+                    <label for="name">Name</label>
+                    <input id="name" name="name" type="text" placeholder="Your Name" />
+                    <label for="email">Email </label>
+                    <input id="email" name="email" type="email" placeholder="Your Email" required="required" />
+                    <label for="subject">Subject</label>
+                    <input id="subject" name="subject" type="text" placeholder="Subject" />
+                    <label for="message">Message</label>
+                    <textarea id="message" type="text" name="message" placeholder="Your Message" required="required"></textarea>
+                    <button type="submit">Send</button>
+                </form>
+                <div class="contact-info">
+                    <p>Please, contact us at anthill@gmail.com<br><br> or call us <br> +38(067)532-48-99</p>
+                    <h6><span><a href="mailto:ask@htmlbook.ru">anthill@gmail.com</a></span><br>+38(067)532-48-99</h6>
+                    <div class="social">
+                        <div class="skype soc-icon">
+                            <a href="https://www.skype"></a>
+                        </div>
+                        <div class="facebook soc-icon">
+                            <a href="https://www.facebook.com"></a>
+                        </div>
+                        <div class="google soc-icon">
+                            <a href="https://www.google.com"></a>
+                        </div>
+                        <div class="lin soc-icon">
+                            <a href="https://www.linkedin.com"></a>
+                        </div>
+                        <div class="upwork soc-icon">
+                            <a href="https://www.upwork.com"> </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Created by AntHill. All right reserved &copy; 2016</p>
+    </footer>
+    <!--<script src="js/jquery-3.1.1.min.js"></script>-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/smoothscroll/1.4.4/SmoothScroll.js"></script>
+    <script src="js/parallax.js"></script>
+    <script src="js/slider.js"></script>
+    <script src="js/down-parallax.js"></script>
+    <script src="js/svg.js"></script>
+    <script src="js/index.js"></script>
+    <script src="js/mobileNav.js"></script>
+    <script type="text/javascript" src="./js/lazyload.js"></script>
+
+</html>
